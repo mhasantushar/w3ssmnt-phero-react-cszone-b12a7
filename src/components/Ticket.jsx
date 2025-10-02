@@ -10,8 +10,26 @@ import {
 const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
   // console.log(issue);
 
+  const updateIssueStatus = (issueId, newStatus) => {
+    // console.log({ issueId, newStatus });
+    const updatedIssueDataset = issueDataset.map((elem) =>
+      elem.id === issueId ? { ...elem, status: newStatus } : elem
+    );
+    // console.log (updatedIssueDataset);
+    setIssueDataset(updatedIssueDataset);
+  };
+
+  const handleClickOnCard = (card, event) => {
+    // console.log (card);
+    // console.log(event.target);
+    updateIssueStatus(card.id, card.status === "New" ? "Ongoing" : "Resolved");
+  };
+
   return (
-    <section className="bg-white shadow-lg p-3 rounded-lg">
+    <section
+      onClick={(event) => handleClickOnCard(issue, event)}
+      className="bg-white shadow-lg p-3 rounded-lg"
+    >
       <div className="flex justify-between items-top gap-4 mb-3">
         <h3 className="font-medium text-[#001931] text-lg">{issue?.title}</h3>
         <div
@@ -32,7 +50,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
                 : null // fallback icon if no status matches
             }
           />
-          <span>{issue?.status}</span>
+          {issue?.status}
         </div>
       </div>
 
@@ -59,9 +77,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
           <p className="text-[#627382] text-xs">{issue?.raisedby}</p>
           <p className="text-[#627382] text-xs">
             <FontAwesomeIcon icon="fa-solid fa-calendar" />
-            <span>
-              {issue?.raisedon} {issue?.raisedat}
-            </span>
+            {issue?.raisedon} {issue?.raisedat}
           </p>
         </div>
       </div>
