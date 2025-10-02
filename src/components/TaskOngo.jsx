@@ -4,10 +4,9 @@ import { toast } from "react-toastify";
 const TaskOngo = ({ issue, issueDataset, setIssueDataset }) => {
   // console.log (issue);
 
-  const handleUpdateIssueStatus = (issueId, newStatus) => {
-    // console.log({ issueId, newStatus });
+  const handleUpdateIssueStatus = (newStatus) => {
     const updatedIssueDataset = issueDataset.map((elem) =>
-      elem.id === issueId ? { ...elem, status: newStatus } : elem
+      elem.id === issue.id ? { ...elem, status: newStatus } : elem
     );
     // console.log (updatedIssueDataset);
     setIssueDataset(updatedIssueDataset);
@@ -18,13 +17,13 @@ const TaskOngo = ({ issue, issueDataset, setIssueDataset }) => {
       <h3 className="mb-2 font-medium text-[#001931] text-lg">{issue.title}</h3>
       <div className="flex justify-center items-center gap-2">
         <button
-          onClick={() => handleUpdateIssueStatus(issue.id, "Resolved")}
+          onClick={() => handleUpdateIssueStatus("Resolved")}
           className="w-1/2 text-sm btn btn-soft"
         >
           Mark Resolved
         </button>
         <button
-          onClick={() => handleUpdateIssueStatus(issue.id, "New")}
+          onClick={() => handleUpdateIssueStatus("New")}
           className="w-1/2 text-sm btn btn-soft btn-success"
         >
           Mark New

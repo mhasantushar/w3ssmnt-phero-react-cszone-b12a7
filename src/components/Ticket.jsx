@@ -10,10 +10,9 @@ import {
 const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
   // console.log(issue);
 
-  const updateIssueStatus = (issueId, newStatus) => {
-    // console.log({ issueId, newStatus });
+  const updateIssueStatus = (newStatus) => {
     const updatedIssueDataset = issueDataset.map((elem) =>
-      elem.id === issueId ? { ...elem, status: newStatus } : elem
+      elem.id === issue.id ? { ...elem, status: newStatus } : elem
     );
     // console.log (updatedIssueDataset);
     setIssueDataset(updatedIssueDataset);
@@ -22,7 +21,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
   const handleClickOnCard = (card, event) => {
     // console.log (card);
     // console.log(event.target);
-    updateIssueStatus(card.id, card.status === "New" ? "Ongoing" : "Resolved");
+    updateIssueStatus(card.status === "New" ? "Ongoing" : "Resolved");
   };
 
   return (
