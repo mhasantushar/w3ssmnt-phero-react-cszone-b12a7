@@ -28,42 +28,50 @@ const Footer = () => {
 
           <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Company</h3>
-            <p className="mb-3 text-[#A1A1AA]">About Us</p>
-            <p className="mb-3 text-[#A1A1AA]">Our Mission</p>
-            <p className="mb-3 text-[#A1A1AA]">Contact Saled</p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">About Us</p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">Our Mission</p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">Contact Saled</p>
           </div>
 
           <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Services</h3>
-            <p className="mb-3 text-[#A1A1AA]">Products & Services</p>
-            <p className="mb-3 text-[#A1A1AA]">Customer Stories</p>
-            <p className="mb-3 text-[#A1A1AA]">Download Apps</p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              Products & Services
+            </p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              Customer Stories
+            </p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">Download Apps</p>
           </div>
 
           <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Information</h3>
-            <p className="mb-3 text-[#A1A1AA]">Privacy Policy</p>
-            <p className="mb-3 text-[#A1A1AA]">Terms & Conditions</p>
-            <p className="mb-3 text-[#A1A1AA]">Join Us</p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              Privacy Policy
+            </p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              Terms & Conditions
+            </p>
+            <p className="mb-3 text-[#A1A1AA] link link-hover">Join Us</p>
           </div>
 
           <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">
               Social Links
             </h3>
-            <p className="mb-3 text-[#A1A1AA]">
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
               <FontAwesomeIcon icon="fa-brands fa-square-x-twitter" />
               <span>@CS — Ticket System</span>
             </p>
-            <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" />{" "}
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
               <span>@CS — Ticket System</span>
             </p>
-            <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-brands fa-square-facebook" />{" "}
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
+              <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
               <span>@CS — Ticket System</span>
             </p>
-            <p className="mb-3 text-[#A1A1AA]">
+            <p className="mb-3 text-[#A1A1AA] link link-hover">
               <FontAwesomeIcon icon="fa-solid fa-envelope" />
               <span>support@cst.com</span>
             </p>

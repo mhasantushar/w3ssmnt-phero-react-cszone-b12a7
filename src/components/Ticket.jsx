@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle as faCircleRegular } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -6,7 +7,7 @@ import {
   faCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Ticket = ({ issue }) => {
+const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
   // console.log(issue);
 
   return (

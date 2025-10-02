@@ -1,0 +1,1002 @@
+[
+    {
+        "id": "0001",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "John Doe",
+        "raisedon": "01/25/2024",
+        "raisedat": "2:10 PM"
+    },
+    {
+        "id": "0002",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Jane Smith",
+        "raisedon": "01/23/2024",
+        "raisedat": "11:26 AM"
+    },
+    {
+        "id": "0003",
+        "title": "App Crash on Launch",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Tom Lee",
+        "raisedon": "01/26/2024",
+        "raisedat": "3:53 PM"
+    },
+    {
+        "id": "0004",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Lucy Brown",
+        "raisedon": "01/15/2024",
+        "raisedat": "3:45 PM"
+    },
+    {
+        "id": "0005",
+        "title": "Refund Not Processed",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "HIGH",
+        "status": "Resolved",
+        "raisedby": "Mark Wilson",
+        "raisedon": "01/26/2024",
+        "raisedat": "10:46 PM"
+    },
+    {
+        "id": "0006",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Ella Green",
+        "raisedon": "01/03/2024",
+        "raisedat": "3:55 PM"
+    },
+    {
+        "id": "0007",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Chris White",
+        "raisedon": "01/05/2024",
+        "raisedat": "11:31 AM"
+    },
+    {
+        "id": "0008",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Mia Johnson",
+        "raisedon": "01/12/2024",
+        "raisedat": "1:26 PM"
+    },
+    {
+        "id": "0009",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": null,
+        "status": "New",
+        "raisedby": "David Taylor",
+        "raisedon": "01/30/2024",
+        "raisedat": "0:06 PM"
+    },
+    {
+        "id": "0010",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Sophie Moore",
+        "raisedon": "01/09/2024",
+        "raisedat": "10:19 AM"
+    },
+    {
+        "id": "0011",
+        "title": "Refund Not Processed",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Liam Harris",
+        "raisedon": "01/05/2024",
+        "raisedat": "10:50 AM"
+    },
+    {
+        "id": "0012",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Amelia Clark",
+        "raisedon": "01/08/2024",
+        "raisedat": "0:13 PM"
+    },
+    {
+        "id": "0013",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Ethan Lewis",
+        "raisedon": "01/27/2024",
+        "raisedat": "5:16 PM"
+    },
+    {
+        "id": "0014",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Chloe Walker",
+        "raisedon": "01/21/2024",
+        "raisedat": "8:46 AM"
+    },
+    {
+        "id": "0015",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Oscar King",
+        "raisedon": "01/23/2024",
+        "raisedat": "9:42 PM"
+    },
+    {
+        "id": "0016",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Lily Scott",
+        "raisedon": "01/23/2024",
+        "raisedat": "2:59 PM"
+    },
+    {
+        "id": "0017",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Samuel Allen",
+        "raisedon": "01/02/2024",
+        "raisedat": "10:43 PM"
+    },
+    {
+        "id": "0018",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Grace Evans",
+        "raisedon": "01/20/2024",
+        "raisedat": "7:09 PM"
+    },
+    {
+        "id": "0019",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Daniel Roberts",
+        "raisedon": "01/08/2024",
+        "raisedat": "9:02 AM"
+    },
+    {
+        "id": "0020",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Ruby Adams",
+        "raisedon": "01/05/2024",
+        "raisedat": "8:19 PM"
+    },
+    {
+        "id": "0021",
+        "title": "Refund Not Processed",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Leo Mitchell",
+        "raisedon": "01/04/2024",
+        "raisedat": "0:48 PM"
+    },
+    {
+        "id": "0022",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Olivia Perez",
+        "raisedon": "01/05/2024",
+        "raisedat": "0:08 PM"
+    },
+    {
+        "id": "0023",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "HIGH",
+        "status": "Resolved",
+        "raisedby": "James Carter",
+        "raisedon": "01/17/2024",
+        "raisedat": "0:52 PM"
+    },
+    {
+        "id": "0024",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Charlotte Wright",
+        "raisedon": "01/28/2024",
+        "raisedat": "8:23 PM"
+    },
+    {
+        "id": "0025",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "HIGH",
+        "status": "Resolved",
+        "raisedby": "Lucas Hill",
+        "raisedon": "01/07/2024",
+        "raisedat": "5:06 PM"
+    },
+    {
+        "id": "0026",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Isla Cooper",
+        "raisedon": "01/07/2024",
+        "raisedat": "11:10 AM"
+    },
+    {
+        "id": "0027",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Benjamin Young",
+        "raisedon": "01/11/2024",
+        "raisedat": "2:42 PM"
+    },
+    {
+        "id": "0028",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Freya Turner",
+        "raisedon": "01/24/2024",
+        "raisedat": "7:07 PM"
+    },
+    {
+        "id": "0029",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Archie Lee",
+        "raisedon": "01/19/2024",
+        "raisedat": "11:12 AM"
+    },
+    {
+        "id": "0030",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Harper Gonzalez",
+        "raisedon": "01/03/2024",
+        "raisedat": "8:56 AM"
+    },
+    {
+        "id": "0031",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Nathan King",
+        "raisedon": "01/02/2024",
+        "raisedat": "0:05 PM"
+    },
+    {
+        "id": "0032",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "John Doe",
+        "raisedon": "01/01/2024",
+        "raisedat": "3:01 PM"
+    },
+    {
+        "id": "0033",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Jane Smith",
+        "raisedon": "01/28/2024",
+        "raisedat": "1:31 PM"
+    },
+    {
+        "id": "0034",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Tom Lee",
+        "raisedon": "01/14/2024",
+        "raisedat": "9:55 AM"
+    },
+    {
+        "id": "0035",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Lucy Brown",
+        "raisedon": "01/21/2024",
+        "raisedat": "2:09 PM"
+    },
+    {
+        "id": "0036",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Mark Wilson",
+        "raisedon": "01/21/2024",
+        "raisedat": "9:32 AM"
+    },
+    {
+        "id": "0037",
+        "title": "Refund Not Processed",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Ella Green",
+        "raisedon": "01/20/2024",
+        "raisedat": "10:04 AM"
+    },
+    {
+        "id": "0038",
+        "title": "App Crash on Launch",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Chris White",
+        "raisedon": "01/20/2024",
+        "raisedat": "10:15 AM"
+    },
+    {
+        "id": "0039",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Mia Johnson",
+        "raisedon": "01/31/2024",
+        "raisedat": "4:24 PM"
+    },
+    {
+        "id": "0040",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "David Taylor",
+        "raisedon": "01/15/2024",
+        "raisedat": "8:11 PM"
+    },
+    {
+        "id": "0041",
+        "title": "Refund Not Processed",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Sophie Moore",
+        "raisedon": "01/09/2024",
+        "raisedat": "8:53 AM"
+    },
+    {
+        "id": "0042",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Liam Harris",
+        "raisedon": "01/12/2024",
+        "raisedat": "8:20 PM"
+    },
+    {
+        "id": "0043",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Amelia Clark",
+        "raisedon": "01/11/2024",
+        "raisedat": "7:34 PM"
+    },
+    {
+        "id": "0044",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Ethan Lewis",
+        "raisedon": "01/10/2024",
+        "raisedat": "8:52 PM"
+    },
+    {
+        "id": "0045",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Chloe Walker",
+        "raisedon": "01/15/2024",
+        "raisedat": "3:38 PM"
+    },
+    {
+        "id": "0046",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Oscar King",
+        "raisedon": "01/24/2024",
+        "raisedat": "6:28 PM"
+    },
+    {
+        "id": "0047",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Lily Scott",
+        "raisedon": "01/08/2024",
+        "raisedat": "5:20 PM"
+    },
+    {
+        "id": "0048",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Samuel Allen",
+        "raisedon": "01/21/2024",
+        "raisedat": "11:16 AM"
+    },
+    {
+        "id": "0049",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Grace Evans",
+        "raisedon": "01/28/2024",
+        "raisedat": "3:56 PM"
+    },
+    {
+        "id": "0050",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Daniel Roberts",
+        "raisedon": "01/09/2024",
+        "raisedat": "7:22 PM"
+    },
+    {
+        "id": "0051",
+        "title": "Refund Not Processed",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Ruby Adams",
+        "raisedon": "01/23/2024",
+        "raisedat": "9:42 AM"
+    },
+    {
+        "id": "0052",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Leo Mitchell",
+        "raisedon": "01/01/2024",
+        "raisedat": "11:50 AM"
+    },
+    {
+        "id": "0053",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Olivia Perez",
+        "raisedon": "01/18/2024",
+        "raisedat": "8:35 AM"
+    },
+    {
+        "id": "0054",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "James Carter",
+        "raisedon": "01/11/2024",
+        "raisedat": "5:58 PM"
+    },
+    {
+        "id": "0055",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Charlotte Wright",
+        "raisedon": "01/04/2024",
+        "raisedat": "1:31 PM"
+    },
+    {
+        "id": "0056",
+        "title": "App Crash on Launch",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "Lucas Hill",
+        "raisedon": "01/17/2024",
+        "raisedat": "4:23 PM"
+    },
+    {
+        "id": "0057",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Isla Cooper",
+        "raisedon": "01/22/2024",
+        "raisedat": "10:07 PM"
+    },
+    {
+        "id": "0058",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Benjamin Young",
+        "raisedon": "01/22/2024",
+        "raisedat": "7:54 PM"
+    },
+    {
+        "id": "0059",
+        "title": "App Crash on Launch",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Freya Turner",
+        "raisedon": "01/31/2024",
+        "raisedat": "4:13 PM"
+    },
+    {
+        "id": "0060",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Archie Lee",
+        "raisedon": "01/30/2024",
+        "raisedat": "0:38 PM"
+    },
+    {
+        "id": "0061",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Harper Gonzalez",
+        "raisedon": "01/18/2024",
+        "raisedat": "6:53 PM"
+    },
+    {
+        "id": "0062",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Nathan King",
+        "raisedon": "01/21/2024",
+        "raisedat": "8:07 PM"
+    },
+    {
+        "id": "0063",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "John Doe",
+        "raisedon": "01/15/2024",
+        "raisedat": "0:19 PM"
+    },
+    {
+        "id": "0064",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Jane Smith",
+        "raisedon": "01/29/2024",
+        "raisedat": "0:57 PM"
+    },
+    {
+        "id": "0065",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Tom Lee",
+        "raisedon": "01/16/2024",
+        "raisedat": "6:11 PM"
+    },
+    {
+        "id": "0066",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Lucy Brown",
+        "raisedon": "01/19/2024",
+        "raisedat": "0:39 PM"
+    },
+    {
+        "id": "0067",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Mark Wilson",
+        "raisedon": "01/10/2024",
+        "raisedat": "4:02 PM"
+    },
+    {
+        "id": "0068",
+        "title": "Refund Not Processed",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Ella Green",
+        "raisedon": "01/22/2024",
+        "raisedat": "1:14 PM"
+    },
+    {
+        "id": "0069",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Chris White",
+        "raisedon": "01/11/2024",
+        "raisedat": "6:28 PM"
+    },
+    {
+        "id": "0070",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Mia Johnson",
+        "raisedon": "01/10/2024",
+        "raisedat": "8:12 PM"
+    },
+    {
+        "id": "0071",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "LOW",
+        "status": "Resolved",
+        "raisedby": "David Taylor",
+        "raisedon": "01/27/2024",
+        "raisedat": "7:00 PM"
+    },
+    {
+        "id": "0072",
+        "title": "Refund Not Processed",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Sophie Moore",
+        "raisedon": "01/12/2024",
+        "raisedat": "8:23 PM"
+    },
+    {
+        "id": "0073",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "MEDIUM",
+        "status": "Resolved",
+        "raisedby": "Liam Harris",
+        "raisedon": "01/03/2024",
+        "raisedat": "9:28 AM"
+    },
+    {
+        "id": "0074",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Amelia Clark",
+        "raisedon": "01/20/2024",
+        "raisedat": "0:13 PM"
+    },
+    {
+        "id": "0075",
+        "title": "Refund Not Processed",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Ethan Lewis",
+        "raisedon": "01/03/2024",
+        "raisedat": "4:11 PM"
+    },
+    {
+        "id": "0076",
+        "title": "Unable to Update Profile Picture",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Chloe Walker",
+        "raisedon": "01/04/2024",
+        "raisedat": "7:20 PM"
+    },
+    {
+        "id": "0077",
+        "title": "App Crash on Launch",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Oscar King",
+        "raisedon": "01/11/2024",
+        "raisedat": "9:48 AM"
+    },
+    {
+        "id": "0078",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer is not receiving 2FA codes on their registered phone number.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Lily Scott",
+        "raisedon": "01/05/2024",
+        "raisedat": "7:37 PM"
+    },
+    {
+        "id": "0079",
+        "title": "Refund Not Processed",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Samuel Allen",
+        "raisedon": "01/06/2024",
+        "raisedat": "2:07 PM"
+    },
+    {
+        "id": "0080",
+        "title": "Missing Order Confirmation Email",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Grace Evans",
+        "raisedon": "01/13/2024",
+        "raisedat": "9:18 PM"
+    },
+    {
+        "id": "0081",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Daniel Roberts",
+        "raisedon": "01/31/2024",
+        "raisedat": "8:42 AM"
+    },
+    {
+        "id": "0082",
+        "title": "Payment Failed - Card Declined",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Ruby Adams",
+        "raisedon": "01/08/2024",
+        "raisedat": "10:32 AM"
+    },
+    {
+        "id": "0083",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Leo Mitchell",
+        "raisedon": "01/21/2024",
+        "raisedat": "10:13 PM"
+    },
+    {
+        "id": "0084",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": "HIGH",
+        "status": "Ongoing",
+        "raisedby": "Olivia Perez",
+        "raisedon": "01/01/2024",
+        "raisedat": "4:53 PM"
+    },
+    {
+        "id": "0085",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "James Carter",
+        "raisedon": "01/26/2024",
+        "raisedat": "10:53 PM"
+    },
+    {
+        "id": "0086",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "priority": "HIGH",
+        "status": "Resolved",
+        "raisedby": "Charlotte Wright",
+        "raisedon": "01/14/2024",
+        "raisedat": "9:07 AM"
+    },
+    {
+        "id": "0087",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Lucas Hill",
+        "raisedon": "01/14/2024",
+        "raisedat": "5:17 PM"
+    },
+    {
+        "id": "0088",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Isla Cooper",
+        "raisedon": "01/12/2024",
+        "raisedat": "6:29 PM"
+    },
+    {
+        "id": "0089",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer wants to enable auto-renewal for their subscription but the feature is disabled.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Benjamin Young",
+        "raisedon": "01/25/2024",
+        "raisedat": "9:40 PM"
+    },
+    {
+        "id": "0090",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Freya Turner",
+        "raisedon": "01/20/2024",
+        "raisedat": "10:34 AM"
+    },
+    {
+        "id": "0091",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer requested a refund two weeks ago but has not received the amount yet.",
+        "priority": "LOW",
+        "status": "Ongoing",
+        "raisedby": "Archie Lee",
+        "raisedon": "01/27/2024",
+        "raisedat": "8:51 AM"
+    },
+    {
+        "id": "0092",
+        "title": "Unable to Download Invoice",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": "MEDIUM",
+        "status": "New",
+        "raisedby": "Harper Gonzalez",
+        "raisedon": "01/11/2024",
+        "raisedat": "8:33 AM"
+    },
+    {
+        "id": "0093",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "Nathan King",
+        "raisedon": "01/22/2024",
+        "raisedat": "10:07 PM"
+    },
+    {
+        "id": "0094",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "priority": "HIGH",
+        "status": "New",
+        "raisedby": "John Doe",
+        "raisedon": "01/13/2024",
+        "raisedat": "0:22 PM"
+    },
+    {
+        "id": "0095",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+        "priority": null,
+        "status": "Resolved",
+        "raisedby": "Jane Smith",
+        "raisedon": "01/12/2024",
+        "raisedat": "9:05 AM"
+    },
+    {
+        "id": "0096",
+        "title": "Two-Factor Authentication Issue",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "MEDIUM",
+        "status": "Ongoing",
+        "raisedby": "Tom Lee",
+        "raisedon": "01/02/2024",
+        "raisedat": "11:27 AM"
+    },
+    {
+        "id": "0097",
+        "title": "Incorrect Billing Address",
+        "desc": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "priority": "LOW",
+        "status": "New",
+        "raisedby": "Lucy Brown",
+        "raisedon": "01/06/2024",
+        "raisedat": "3:37 PM"
+    },
+    {
+        "id": "0098",
+        "title": "Subscription Auto-Renewal",
+        "desc": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Mark Wilson",
+        "raisedon": "01/09/2024",
+        "raisedat": "1:02 PM"
+    },
+    {
+        "id": "0099",
+        "title": "Refund Not Processed",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": null,
+        "status": "New",
+        "raisedby": "Ella Green",
+        "raisedon": "01/13/2024",
+        "raisedat": "9:25 AM"
+    },
+    {
+        "id": "0100",
+        "title": "Login Issues - Can't Access Account",
+        "desc": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "priority": null,
+        "status": "Ongoing",
+        "raisedby": "Chris White",
+        "raisedon": "01/01/2024",
+        "raisedat": "10:32 AM"
+    }
+]
