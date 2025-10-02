@@ -52,24 +52,27 @@ const Footer = () => {
               Social Links
             </h3>
             <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-brands fa-square-x-twitter" /> @CS —
-              Ticket System
+              <FontAwesomeIcon icon="fa-brands fa-square-x-twitter" />
+              <span>@CS — Ticket System</span>
             </p>
             <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" /> @CS — Ticket
-              System
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" />{" "}
+              <span>@CS — Ticket System</span>
             </p>
             <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-brands fa-square-facebook" /> @CS —
-              Ticket System
+              <FontAwesomeIcon icon="fa-brands fa-square-facebook" />{" "}
+              <span>@CS — Ticket System</span>
             </p>
             <p className="mb-3 text-[#A1A1AA]">
-              <FontAwesomeIcon icon="fa-solid fa-envelope" /> support@cst.com
+              <FontAwesomeIcon icon="fa-solid fa-envelope" />
+              <span>support@cst.com</span>
             </p>
           </div>
         </section>
-        
-        <p className="mt-18 pt-6 border-gray-800 border-t-1 font-light text-[#FAFAFA] text-center">© 2025 CS — Ticket System. All rights reserved.</p>
+
+        <p className="mt-18 pt-6 border-gray-800 border-t-1 font-light text-[#FAFAFA] text-center">
+          © 2025 CS — Ticket System. All rights reserved.
+        </p>
       </div>
     </footer>
   );
