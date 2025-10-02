@@ -11,7 +11,7 @@ library.add(fas, far, fab);
 
 const Footer = () => {
   return (
-    <div className="bg-black">
+    <footer className="bg-black">
       <div className="mx-auto px-1 pt-20 pb-8 w-11/12">
         <section className="gap-4 grid grid-cols-1 sm:grid-cols-11">
           <div className="col-span-3">
@@ -26,28 +26,28 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="col-span-2 pt-4">
+          <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Company</h3>
             <p className="mb-3 text-[#A1A1AA]">About Us</p>
             <p className="mb-3 text-[#A1A1AA]">Our Mission</p>
             <p className="mb-3 text-[#A1A1AA]">Contact Saled</p>
           </div>
 
-          <div className="col-span-2 pt-4">
+          <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Services</h3>
             <p className="mb-3 text-[#A1A1AA]">Products & Services</p>
             <p className="mb-3 text-[#A1A1AA]">Customer Stories</p>
             <p className="mb-3 text-[#A1A1AA]">Download Apps</p>
           </div>
 
-          <div  className="col-span-2 pt-4">
+          <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">Information</h3>
             <p className="mb-3 text-[#A1A1AA]">Privacy Policy</p>
             <p className="mb-3 text-[#A1A1AA]">Terms & Conditions</p>
             <p className="mb-3 text-[#A1A1AA]">Join Us</p>
           </div>
 
-          <div className="col-span-2 pt-4" >
+          <div className="col-span-2 pt-2">
             <h3 className="mb-4 font-medium text-white text-xl">
               Social Links
             </h3>
@@ -68,8 +68,10 @@ const Footer = () => {
             </p>
           </div>
         </section>
+        
+        <p className="mt-18 pt-6 border-gray-800 border-t-1 font-light text-[#FAFAFA] text-center">© 2025 CS — Ticket System. All rights reserved.</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

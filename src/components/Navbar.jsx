@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-white">
+    <nav className="bg-white">
       <div className="mx-auto px-1 py-4 w-11/12">
         <section className="flex sm:flex-row flex-col justify-between items-center gap-12">
           <h1 className="font-bold text-3xl sm:text-left text-center">CS — Ticket System</h1>
@@ -43,7 +43,7 @@ const Navbar = () => {
           </ul>
         </section>
       </div>
-    </div>
+    </nav>
   );
 };
 
