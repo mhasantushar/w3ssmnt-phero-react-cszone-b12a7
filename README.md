@@ -1,6 +1,6 @@
 # Assignment Questions
 
-## What is JSX, and why is it used?
+### What is JSX, and why is it used?
 
 JSX stands for JavaScript XML. Its a like a syntactic sugar added on JavaScript. JSX codes look like HTML, but those are actually JavaScript.
 
@@ -10,7 +10,7 @@ Having said that, HTML has been evolving as merely a markup language and with ad
 
 JSX let us writing HTML codes in the JS files. It also help reduce the amout of code considerably, comparing with the vanila version. Besides, it increases human readability as well. Yet, we can inject vanila JS as and when required in JSX using {}, which further elevates the level of convenience.
 
-## What is the difference between States and Props?
+### What is the difference between States and Props?
 
 Props refer to the argument value-passing mechanism as parameters from the parent to child components, whereas States are value-storage-and-retrival mechanism in a way that as and when the stored value is updated, all elements associated with that value is re-rended as well. This value for both can be anything simple or complex, ranging from variables to structured/unstructured files, even functions as well.
 
