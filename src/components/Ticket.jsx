@@ -16,6 +16,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
     );
     // console.log (updatedIssueDataset);
     setIssueDataset(updatedIssueDataset);
+    toast(`Ticket #${issue.id}, "${issue.title}", is marked as "${newStatus}"`)
   };
 
   const handleClickOnCard = (card, event) => {

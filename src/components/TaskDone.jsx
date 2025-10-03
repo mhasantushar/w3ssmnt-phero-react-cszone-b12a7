@@ -10,10 +10,11 @@ const TaskDone = ({ issue, issueDataset, setIssueDataset }) => {
     );
     // console.log (updatedIssueDataset);
     setIssueDataset(updatedIssueDataset);
+    toast(`Done marking ticket #${issue.id}, "${issue.title}", as "${newStatus}".`)
   };
 
   return (
-    <section className="bg-slate-400 shadow-lg p-3 rounded-lg">
+    <section className="bg-stone-300 shadow-lg p-3 rounded-lg">
       <h3 className="mb-2 font-medium text-[#001931] text-lg">{issue.title}</h3>
       <div className="flex justify-center items-center gap-2">
         <button
