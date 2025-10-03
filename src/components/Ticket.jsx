@@ -16,7 +16,9 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
     );
     // console.log (updatedIssueDataset);
     setIssueDataset(updatedIssueDataset);
-    toast(`Ticket #${issue.id}, "${issue.title}", is marked as "${newStatus}"`)
+    toast(
+      `Done marking ticket #${issue.id}, "${issue.title}", as "${newStatus}".`
+    );
   };
 
   const handleClickOnCard = (card, event) => {
@@ -30,7 +32,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
       onClick={(event) => handleClickOnCard(issue, event)}
       className="bg-white shadow-lg p-3 rounded-lg"
     >
-      <div className="flex justify-between items-top gap-4 mb-3">
+      <div className="flex flex-wrap justify-between items-top gap-4 mb-3">
         <h3 className="font-medium text-[#001931] text-lg">{issue?.title}</h3>
         <div
           className={`badge 
@@ -56,8 +58,8 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
 
       <p className="mb-4 text-[#627382]">{issue?.desc}</p>
 
-      <div className="flex justify-between items-center gap-4">
-        <div className="flex justify-start items-center gap-2">
+      <div className="flex flex-wrap justify-between items-center gap-4">
+        <div className="flex flex-wrap justify-start items-center gap-2">
           <p className="text-[#627382] text-xs">{issue?.id}</p>
           <div className="text-[#627382] text-xs">
             <div
@@ -73,7 +75,7 @@ const Ticket = ({ issue, issueDataset, setIssueDataset }) => {
           </div>
         </div>
 
-        <div className="flex justify-end items-center gap-2">
+        <div className="flex flex-wrap justify-end items-center gap-2">
           <p className="text-[#627382] text-xs">{issue?.raisedby}</p>
           <p className="text-[#627382] text-xs">
             <FontAwesomeIcon icon="fa-solid fa-calendar" />

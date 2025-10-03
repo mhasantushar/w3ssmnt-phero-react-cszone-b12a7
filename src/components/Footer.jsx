@@ -11,7 +11,7 @@ library.add(fas, far, fab);
 
 const Footer = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-black sm:text-left text-center">
       <div className="mx-auto px-1 pt-20 pb-8 w-11/12">
         <section className="gap-4 grid grid-cols-1 sm:grid-cols-11">
           <div className="col-span-3">
