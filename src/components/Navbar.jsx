@@ -1,11 +1,25 @@
 import React from "react";
 
 const Navbar = () => {
+  const handleNewTicketClick = () => {
+    console.log ("clicked"); 
+    // alert("This functionality is not implemented yet.");
+
+    <div className="toast-top toast toast-center">
+      <div className="alert alert-info">
+        <span>Requested feature not implemented yet.</span>
+      </div>
+
+    </div>;
+  };
+
   return (
     <nav className="bg-white">
       <div className="mx-auto px-1 py-4 w-11/12">
         <section className="flex sm:flex-row flex-col justify-between items-center gap-12">
-          <h1 className="font-bold text-3xl sm:text-left text-center">CS — Ticket System</h1>
+          <h1 className="font-bold text-3xl sm:text-left text-center">
+            CS — Ticket System
+          </h1>
           <ul className="flex flex-wrap justify-center items-center gap-8 font-medium text-lg">
             <li>
               <a className="link link-hover" href="#">
@@ -37,7 +51,10 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <button className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm btn-outline font-medium text-white btn btn-primary">
+            <button
+              onClick={() => handleNewTicketClick()}
+              className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-sm btn-outline font-medium text-white btn btn-primary"
+            >
               + New Ticket
             </button>
           </ul>

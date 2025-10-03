@@ -23,13 +23,13 @@ const TaskOngo = ({ issue, issueDataset, setIssueDataset }) => {
           onClick={() => handleUpdateIssueStatus("Resolved")}
           className="w-1/2 font-normal text-sm btn btn-soft"
         >
-          Mark Resolved
+          Complete
         </button>
         <button
           onClick={() => handleUpdateIssueStatus("New")}
-          className="w-1/2 font-normal text-sm btn btn-soft btn-success"
+          className="w-1/2 font-normal text-sm w:full btn btn-soft btn-success"
         >
-          Mark New
+          Renew
         </button>
       </div>
     </section>

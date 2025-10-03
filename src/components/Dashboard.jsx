@@ -13,13 +13,36 @@ const Dashboard = ({ promiseIssuesData }) => {
   const activeIssues = issueDataset.filter(
     (issue) => issue.status === "New" || issue.status === "Ongoing"
   );
-  // const arrivedIssues = issueDataset.filter((issue) => issue.status === "New");
+  const arrivedIssues = issueDataset.filter((issue) => issue.status === "New");
   const ongoingIssues = issueDataset.filter(
     (issue) => issue.status === "Ongoing"
   );
   const resolvedIssues = issueDataset.filter(
     (issue) => issue.status === "Resolved"
   );
+
+  const activeListsTooltip =
+    activeIssues.length === 0
+      ? "No active ticket; lets check the data source.."
+      : `Showing ${arrivedIssues.length} new n ${
+          ongoingIssues.length
+        } progressive ticket${
+          activeIssues.length > 1 ? "s" : ""
+        }; click to put one to the next stage..`;
+
+  const ongoingListsTooltip =
+    ongoingIssues.length === 0
+      ? "None in progress; click a new ticket on left pane.."
+      : `Showing ${ongoingIssues.length} ticket${
+          ongoingIssues.length > 1 ? "s" : ""
+        }; use buttons below to alter status..`;
+
+  const resolvedListsTooltip =
+    resolvedIssues.length === 0
+      ? "Nothing found; use other pane to mark completions.."
+      : `Completed ${resolvedIssues.length} ticket${
+          resolvedIssues.length > 1 ? "s" : ""
+        }; can set one back to active though..`;
 
   return (
     <div className="bg-slate-300 px-1 py-20">
@@ -33,9 +56,14 @@ const Dashboard = ({ promiseIssuesData }) => {
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {/* TICKETS GRID SECTION */}
           <section className="col-span-1 lg:col-span-3">
-            <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
-              Active Tickets
-            </h2>
+            <div
+              className="tooltip-right tooltip tooltip-open tooltip-primary"
+              data-tip={activeListsTooltip}
+            >
+              <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
+                Active Tickets
+              </h2>
+            </div>
 
             <div>
               {activeIssues.length > 0 ? (
@@ -64,10 +92,15 @@ const Dashboard = ({ promiseIssuesData }) => {
           <aside className="grid-span-1">
             {/* RIGHT PANE - ONGOING TASKS */}
             <div className="flex flex-col gap-4">
-              <section className="mt-12 sm:mt-0 w-full">
-                <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
-                  Ongoing Tickets
-                </h2>
+              <section className="mt-12 sm:mt-0 -full">
+                <div
+                  className="tooltip tooltip-primary"
+                  data-tip={ongoingListsTooltip}
+                >
+                  <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
+                    Ongoing Tickets
+                  </h2>
+                </div>
 
                 <div>
                   {ongoingIssues.length > 0 ? (
@@ -86,7 +119,7 @@ const Dashboard = ({ promiseIssuesData }) => {
                     <div>
                       <div className="animate-bounce status status-info"></div>
                       <span>
-                        &nbsp;Click an active ticket to mark it's kick off.
+                        &nbsp;Click a new ticket to mark it's kick off.
                       </span>
                     </div>
                   )}
@@ -95,12 +128,17 @@ const Dashboard = ({ promiseIssuesData }) => {
 
               {/* RIGHT PANE - COMPLETED TASKS SECTION */}
               <section className="mt-12 w-full">
-                <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
-                  Resolved Tickets
-                </h2>
+                <div
+                  className="tooltip tooltip-primary"
+                  data-tip={resolvedListsTooltip}
+                >
+                  <h2 className="mb-4 font-semibold text-[#34485A] text-2xl">
+                    Resolved Tickets
+                  </h2>
+                </div>
 
                 <div>
-                  {ongoingIssues.length > 0 ? (
+                  {resolvedIssues.length > 0 ? (
                     <div className="flex flex-col gap-2">
                       {resolvedIssues.map((issue) => (
                         <TaskDone

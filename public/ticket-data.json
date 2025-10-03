@@ -4,7 +4,7 @@
         "title": "Incorrect Billing Address",
         "desc": "Customer is not receiving 2FA codes on their registered phone number.",
         "priority": "MEDIUM",
-        "status": "New",
+        "status": "Ongoing",
         "raisedby": "John Doe",
         "raisedon": "01/25/2024",
         "raisedat": "2:10 PM"
@@ -22,7 +22,7 @@
     {
         "id": "0003",
         "title": "App Crash on Launch",
-        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "desc": "Customer cannot download their January invoice from the billing section.",
         "priority": null,
         "status": "Ongoing",
         "raisedby": "Tom Lee",
@@ -32,9 +32,9 @@
     {
         "id": "0005",
         "title": "Refund Not Processed",
-        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "desc": "Customer cannot download their January invoice from the billing section.",
         "priority": "HIGH",
-        "status": "Resolved",
+        "status": "New",
         "raisedby": "Mark Wilson",
         "raisedon": "01/26/2024",
         "raisedat": "10:46 PM"
@@ -52,7 +52,7 @@
     {
         "id": "0009",
         "title": "Subscription Auto-Renewal",
-        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "desc": "Customer cannot download their January invoice from the billing section.",
         "priority": null,
         "status": "New",
         "raisedby": "David Taylor",
@@ -64,7 +64,7 @@
         "title": "Login Issues - Can't Access Account",
         "desc": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
         "priority": null,
-        "status": "Ongoing",
+        "status": "New",
         "raisedby": "Chloe Walker",
         "raisedon": "01/21/2024",
         "raisedat": "8:46 AM"
@@ -72,7 +72,7 @@
     {
         "id": "0015",
         "title": "Payment Failed - Card Declined",
-        "desc": "Customer cannot download their January invoice from the billing section. The download button is broken...",
+        "desc": "Customer cannot download their January invoice from the billing section.",
         "priority": "LOW",
         "status": "New",
         "raisedby": "Oscar King",
@@ -124,7 +124,7 @@
         "title": "Unable to Change Shipping Address",
         "desc": "Customer is unable to update their shipping address during the checkout process.",
         "priority": null,
-        "status": "Resolved",
+        "status": "New",
         "raisedby": "Isabella Brown",
         "raisedon": "01/31/2024",
         "raisedat": "10:08 AM"
@@ -154,7 +154,7 @@
         "title": "No Confirmation for Payment",
         "desc": "Customer paid for their subscription but hasn't received any confirmation email.",
         "priority": "HIGH",
-        "status": "Resolved",
+        "status": "New",
         "raisedby": "Ethan Martinez",
         "raisedon": "02/01/2024",
         "raisedat": "8:39 PM"
@@ -194,7 +194,7 @@
         "title": "Unable to Add Payment Method",
         "desc": "Customer cannot add a new payment method to their account.",
         "priority": "MEDIUM",
-        "status": "Resolved",
+        "status": "New",
         "raisedby": "Ava Robinson",
         "raisedon": "02/04/2024",
         "raisedat": "9:21 AM"
@@ -204,7 +204,7 @@
         "title": "Refund Process Delay",
         "desc": "Customer's refund has not been processed despite the request being made two weeks ago.",
         "priority": null,
-        "status": "Ongoing",
+        "status": "New",
         "raisedby": "Mason Clark",
         "raisedon": "02/05/2024",
         "raisedat": "1:30 PM"
@@ -234,7 +234,7 @@
         "title": "Account Locked After Multiple Failed Login Attempts",
         "desc": "Customer's account was locked due to multiple failed login attempts and cannot regain access.",
         "priority": "HIGH",
-        "status": "Resolved",
+        "status": "New",
         "raisedby": "Emily Miller",
         "raisedon": "02/06/2024",
         "raisedat": "7:25 PM"

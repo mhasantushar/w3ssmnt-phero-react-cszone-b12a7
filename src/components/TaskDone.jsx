@@ -23,13 +23,13 @@ const TaskDone = ({ issue, issueDataset, setIssueDataset }) => {
           onClick={() => handleUpdateIssueStatus("Ongoing")}
           className="w-1/2 font-normal text-sm btn btn-soft btn-warning"
         >
-          Mark Ongoing
+          Restart
         </button>
         <button
           onClick={() => handleUpdateIssueStatus("New")}
           className="w-1/2 font-normal text-sm btn btn-soft btn-success"
         >
-          Mark New
+          Renew
         </button>
       </div>
     </section>
