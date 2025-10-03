@@ -42,6 +42,7 @@ How it Works:
 
 The useState hook is a powerful feature in React that enables functional components to manage and update local states. In a simple and straight-forward way. Earlier the same was being done using useEffect hook, which was little more complicated.
 
+
 ### How can you share state between components in React?
 
 We can share states between components by using useState, and passing the state variable and associated setter function as props.
@@ -53,6 +54,7 @@ Details of declaring states and the way to update a state variable have been exp
 3. Context API - if the state is required by a number of components, which are not suitable or reachable via prop drilling and lifting state up
 
 Besides, there are some state management libraries too that are suitable for more complex and/or scaling scenario. Zustand and Redux are worth mentions among them.
+
 
 ### How is event handling done in React?
 
