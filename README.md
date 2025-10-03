@@ -82,5 +82,5 @@ Its to mention that React's event system is called Synthetic Event, which is a w
 
 ## LINKS
 
-LIVE: https://w3ssmnt-phero-react-cszone-b12a7.netlify.app/
-REPO: https://github.com/mhasantushar/w3ssmnt-phero-react-cszone-b12a7
+- LIVE: https://w3ssmnt-phero-react-cszone-b12a7.netlify.app/
+- REPO: https://github.com/mhasantushar/w3ssmnt-phero-react-cszone-b12a7
