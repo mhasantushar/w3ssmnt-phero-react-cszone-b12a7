@@ -1,16 +1,26 @@
-# React + Vite
+# Assignment Questions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is JSX, and why is it used?
 
-Currently, two official plugins are available:
+JSX stands for JavaScript XML. Its a like a syntactic sugar added on JavaScript. JSX codes look like HTML, but those are actually JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is used in React to build used interfaces following step-by-step component model, which meant to be highly reusuable.
 
-## React Compiler
+Having said that, HTML has been evolving as merely a markup language and with advancement of web, we started using JS to build functionalities and implement business logics. Coding integration became a tedious challenge, and this is wher JSX came handy. 
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JSX let us writing HTML codes in the JS files. It also help reduce the amout of code considerably, comparing with the vanila version. Besides, it increases human readability as well. Yet, we can inject vanila JS as and when required in JSX using {}, which further elevates the level of convenience.
 
-## Expanding the ESLint configuration
+## What is the difference between States and Props?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Props refer to the argument value-passing mechanism as parameters from the parent to child components, whereas States are value-storage-and-retrival mechanism in a way that as and when the stored value is updated, all elements associated with that value is re-rended as well. This value for both can be anything simple or complex, ranging from variables to structured/unstructured files, even functions as well.
+
+For example, lets assume we store a value in a variable and keep passing that as props to different functions. These functions prints that value on different pages. Now if the stored value is changed, those pages will not reflect that automatically. But if we do the same using States, all pages will be re-rendered as soon as the State value is changed.
+
+While the aforementioned is the main conceptual difference between Props and States, there are number functional/operational differences as well.
+
+1. Prop values (in argument states) can be initialized/updated in traditional way. In the contrary, States offer us a dedicated funtion to have the stored value changed.
+
+2. States are mutable, whereas props are mutable only at it's argument state in the parent components, but immutable inside the child components.
+
+3. Normally props work in one direction only (downwards), which is not the case with states.
+
